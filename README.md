@@ -6,3 +6,5 @@
 Here's a clip with slightly more blur
 
 ![ezgif-3-8d13b793b6](https://user-images.githubusercontent.com/1317442/42804853-9d8cc65a-89c3-11e8-9cfc-e4d1bdd1b57e.gif)
+
+You can read the blog post about it [here](http://zubairahmed.net/2018/07/17/background-blurring-with-semantic-image-segmentation-using-deeplabv3/) 

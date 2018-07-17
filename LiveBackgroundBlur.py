@@ -22,7 +22,7 @@ while True:
     res = deeplab_model.predict(np.expand_dims(resized2,0))
     labels = np.argmax(res.squeeze(),-1)    
     
-    labels = labels[:-pad_x]
+    labels = labels[:-pad_x-25]
     mask = labels == 0    
     resizedFrame = cv2.resize(frame, (labels.shape[1],labels.shape[0]))
     blur = cv2.GaussianBlur(resizedFrame,blurValue,0)    
